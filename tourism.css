@@ -1,0 +1,117 @@
+
+.carousel-card{
+    height: 50vh;
+    width: 100vw;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.bg-container {
+    height: 100vh;
+  background-size: cover;
+  width: 100%;
+  background-image: url(https://img.freepik.com/free-photo/architecture-ancient-monument-world-heritage-day-celebration_23-2151297168.jpg?t=st=1725885097~exp=1725888697~hmac=015cf26cc9f13ab748ebd2049150dc07d92d9d908c1dac82f9544c25c1c6ae78&w=1060);
+
+}
+.tourism-card {
+  text-align: center;
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 5px;
+  width: 15vw;
+  margin-left: 530px;
+  margin-top: 350px;
+  
+}
+.button {
+  color: white;
+  background-color: #25b1cc;
+  width: 138px;
+  height: 36px;
+  border-width: 0px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.main-heading {
+  font-family: "Roboto";
+  color: orangered;
+  font-weight: bold;
+}
+.paragraph {
+  font-family: "Roboto";
+  color: rgb(8, 197, 83);
+  font-weight: bold;
+}
+.favourite-places-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+  height: 110vh;
+  background-size: cover;
+  padding: 24px;
+  width: 100%;
+}
+.favourite-places-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+}
+.favourite-place-card-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 15px;
+}
+.favourite-place-card-heading {
+  color: #0f0e46;
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: bold;
+}
+.favourite-place-card-description {
+  color: #6c6b70;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+.favourite-place-card-image {
+  width: 80px;
+  height: 100px;
+}
+.favourite-place-card-text-container {
+  margin-right: 15px;
+}
+.detailed-view-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+  height: 100vh;
+  background-size: cover;
+}
+.detailed-view-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+  padding: 24px;
+}
+.detailed-view-card-container {
+  background-color: white;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin: 24px;
+}
+.detailed-view-card-heading {
+  color: #0f0e46;
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: bold;
+}
+.detailed-view-card-description {
+  color: #6c6b70;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+.detailed-view-card-text-container {
+  padding: 16px;
+}

@@ -1,0 +1,10 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    background-image: url("https://img.freepik.com/premium-photo/sunset-ocean-with-sun-setting-horizon_893055-14280.jpg?w=360");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+
+
+.main-heading{
+    font-size: 30px;
+    padding-left: 23px;
+}
+.details{
+    text-align: center;
+    color: white;
+    padding-top: 400px;
+    
+}
+.banner-section{
+    background-image: url(https://img.freepik.com/free-photo/hand-pointing-blackboard-amidst-mexican-food_23-2147740701.jpg?t=st=1726376048~exp=1726379648~hmac=399368b3e704a118a4e9175d6918ebd264f0970a875a03725c7a37921034e295&w=1060);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.logo{
+    height: 10vh;
+    width: 100%;
+    border-radius: 40px;
+   
+}

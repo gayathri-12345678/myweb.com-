@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="tourism.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="sectionHome">
+      <div class="bg-container d-flex flex-column justify-content-center text-center">
+        <div class="tourism-card">
+          <h1 class="main-heading">Tourism</h1>
+          <p class="paragraph">Plan your trip to the Most beautiful temples.</p>
+          <button class="button" onclick="display('sectionFavouritePlaces')">Get Started</button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionFavouritePlaces">
+      <div class="favourite-places-bg-container">
+       <h1 class="favourite-places-heading">Favourite  Places</h1>
+       <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionRamTempleDetailedView')">
+         <div>
+           <h1 class="favourite-place-card-heading">Ram Mandir Temple</h1>
+           <p class="favourite-place-card-description">
+            The Ram Mandir is a partially constructed Hindu temple complex in Ayodhya, Uttar Pradesh, India. Many Hindus believe that it is located at the site of Ram Janmabhoomi, the mythical birthplace of Rama, a principal deity of Hinduism. 
+           </p>
+         </div>
+         <img
+           src="
+           C:\Users\manju\Downloads/ayodhya.jpg"
+           class="favourite-place-card-image"
+         />
+       </div>
+       <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionSomnathTempleDetailedView')">
+         <div>
+           <h1 class="favourite-place-card-heading">Somnath Temple</h1>
+           <p class="favourite-place-card-description">
+            Somnath temple or Deo Patan, is a Hindu temple located in Prabhas Patan, Veraval in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva.
+           </p>
+         </div>
+         <img
+           src="C:\Users\manju\Downloads/somnath.jpg"
+           class="favourite-place-card-image"
+         />
+       </div>
+       <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionKasiTempleDetailedView')">
+         <div>
+           <h1 class="favourite-place-card-heading">Kasi Vishwanth Temple</h1>
+           <p class="favourite-place-card-description">
+            The world famous Kashi Vishwanath Mandir is located in Varanasi. This temple of Bhagwan Shiva is situated on the banks of river Ganga in Varanasi city of Uttar Pradesh.Kashi Vishwanath Temple is one of the 12 Jyotirlingas of Bhagwan Shiva.
+           </p>
+         </div>
+         <img
+           src="C:\Users\manju\Downloads/kasi.jpg"
+           class="favourite-place-card-image"
+         />
+       </div>
+       <div class="favourite-place-card-container d-flex flex-row"  onclick="display('sectionBirlaTempleDetailedView')">
+         <div>
+           <h1 class="favourite-place-card-heading">Birla Mandir Temple</h1>
+           <p class="favourite-place-card-description">
+            Birla Mandir is a Hindu temple built on a 280 feet (85 m) high hillock called Naubath Pahad on a 13 acres (53,000 m2) plot in Hyderabad, Telangana, India. The construction took ten years and was opened in 1976 by Swami Ranganathananda of Ramakrishna Mission. 
+           </p>
+         </div>
+         <img
+           src="C:\Users\manju\Downloads/birla.jpg"
+           class="favourite-place-card-image"
+         />
+       </div>
+       <button class="btn btn-primary" onclick="display('sectionHome')">back</button>
+      </div>
+    </div>
+    <div id="sectionRamTempleDetailedView">
+      <div class="detailed-view-bg-container">
+        <h1 class="detailed-view-heading">Detailed View</h1>
+        <div class="detailed-view-card-container">
+          <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="C:\Users\manju\Downloads/ram.jpg"
+                  class="carousel-card"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.freepik.com/free-photo/crowded-indian-city_23-2151765638.jpg?t=st=1725804405~exp=1725808005~hmac=c66313c96d369cdd49e35178e0b202ad7806fa917fd26e8551d2d14776e0fc47&w=1380"
+                  class="carousel-card"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.freepik.com/free-photo/illuminated-pagoda-glows-ancient-east-asian-culture-generated-by-ai_188544-38645.jpg?t=st=1725804660~exp=1725808260~hmac=94913334925ac0834d3be017973b51f449677aa84a91de964fa88c947fc42f09&w=1380"
+                  class="carousel-card"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detailed-view-card-text-container">
+            <h1 class="detailed-view-card-heading">Ram Mandir</h1>
+            <p class="detailed-view-card-description">
+                The Ram Mandir is a partially constructed Hindu temple complex in Ayodhya, Uttar Pradesh, India.It is located at the site of Ram Janmabhoomi, the mythical birthplace of Rama, a principal deity of Hinduism.The temple was inaugurated on 22 January 2024 after a prana pratishtha  ceremony. On the first day of its opening, following the consecration, the temple received a rush of over half a million visitors, and after a month, the number of daily visitors was reported to be between 100,000 and 150,000.
+            </p>
+          </div>
+        </div>
+        <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">
+          back
+        </button>
+      </div>
+    </div>
+    <div id="sectionSomnathTempleDetailedView">
+      <div class="detailed-view-bg-container">
+        <h1 class="detailed-view-heading">Detailed View</h1>
+        <div class="detailed-view-card-container">
+          <div id="somnathTempleCarousel1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#somnathTempleCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#somnathTempleCarousel" data-slide-to="1"></li>
+              <li data-target="#somnathTempleCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="C:\Users\manju\Downloads/somnath1.jpg" class="carousel-card" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\manju\Downloads/somnath2.jpg" class="carousel-card" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="C:\Users\manju\Downloads/somnath3.jpg" class="carousel-card" alt="..." />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#somnathTempleCarousel1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#somnathTempleCarousel1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="detailed-view-card-text-container">
+            <h1 class="detailed-view-card-heading">Somnath Temple</h1>
+            <p class="detailed-view-card-description">
+                Somnath temple  or Deo Patan, is a Hindu temple located in Prabhas Patan, Veraval in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. It is unclear when the first version of the Somnath temple was built, with estimates varying between the early centuries of the 1st millennium and about the 9th century CE. The temple is not mentioned in the ancient Sanskrit texts of Hinduism; while various texts, including the Mahabharata and Bhagavata Purana, mention a tirtha  at Prabhas Patan on the coastline of Saurashtra, where the temple is presently located, there is no evidence that a temple existed at the site in ancient times.
+            </p>
+          </div>
+        </div>
+        <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">
+          back
+        </button>
+      </div>
+    </div>
+
+    <div id="sectionKasiTempleDetailedView">
+        <div class="detailed-view-bg-container">
+          <h1 class="detailed-view-heading">Detailed View</h1>
+          <div class="detailed-view-card-container">
+            <div id="KasiTempleCarousel1" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#KasiTempleCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#KasiTempleCarousel" data-slide-to="1"></li>
+                <li data-target="#KasiTempleCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="C:\Users\manju\Downloads/Kasi1.jpg" class="carousel-card" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="C:\Users\manju\Downloads/Kasi2.jpg" class="carousel-card" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="C:\Users\manju\Downloads/Kasi3.jpg" class="carousel-card" alt="..." />
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#KasiTempleCarousel1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#KasiTempleCarousel1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div class="detailed-view-card-text-container">
+              <h1 class="detailed-view-card-heading">Kasi Vishwanath Temple</h1>
+              <p class="detailed-view-card-description">
+                The orginal Kasi Vishwanath temple, called the Adi Vishveshwar Temple, was demolished by Mohammad of Ghor during his invasion of India. Subsequently, the template was rebuilt by Man Singh I and Todar Mal under Emperor Akbar. According to several historical accounts, the Mughal Emperor Aurangzeb ordered the demolition of the Hindu temple in 1669. Subsequently, in 1678, the Gyanvapi Mosque was built on its site, but Hindu pilgrims continued to visit the remnants of the temple. The current structure was constructed on an adjacent site by the Maratha ruler Ahilyabai Holkar of Indore in 1780.
+               </p>
+          </div>
+          <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">
+            back
+          </button>
+        </div>
+        </div>
+        </div>
+
+        <div id="sectionBirlaTempleDetailedView">
+            <div class="detailed-view-bg-container">
+              <h1 class="detailed-view-heading">Detailed View</h1>
+              <div class="detailed-view-card-container">
+                <div id="BirlaTempleCarousel1" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#BirlaTempleCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#BirlaTempleCarousel" data-slide-to="1"></li>
+                    <li data-target="#BirlaTempleCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="C:\Users\manju\Downloads/birla1.jpg" class="carousel-card" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="C:\Users\manju\Downloads/birla2.jpeg" class="carousel-card" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="C:\Users\manju\Downloads/birla3.jpg" class="carousel-card" alt="..." />
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#BirlaTempleCarousel1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#BirlaTempleCarousel1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                  <h1 class="detailed-view-card-heading">Birla Temple</h1>
+                  <p class="detailed-view-card-description">
+                    Birla Mandir is a Hindu temple built on a 280 feet (85 m) high hillock called Naubath Pahad on a 13 acres (53,000 m2) plot in Hyderabad, Telangana, India. The construction took ten years and was opened in 1976 by Swami Ranganathananda of Ramakrishna Mission. The temple was constructed by the Birla Foundation, which has also constructed several similar temples across India, all known as Birla Mandir.
+                    Apart from the main shrine, the consorts of Lord Venkateswara, Padmavati and Andal are housed in separate shrines. The temple also has separate shrines for various Deva and Devi, including Shiva, Shakti, Ganesh, Hanuman, Brahma, Saraswati and Lakshmi. Selected teachings of men and Gurbani are engraved on temple walls. Birla temples are open to all, as identified by Mahatma Gandhi and other Hindu leaders.                  </p>
+                </div>
+              </div>
+              <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">
+                back
+              </button>
+            </div>
+            </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>
